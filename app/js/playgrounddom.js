@@ -4,9 +4,11 @@ const Dom = (()=> {
     function category(elem){
         let mainPage = document.querySelector(".main_page");
         let markup = `
+        <div class="pre"></div>
         <div class="modal rmmodal">
         <div class="img1">
-        <i class="bi bi-x-square"></i>
+        <i class="bi bi-x-octagon-fill"></i>
+        <img class="wide_img" src="" alt="">
         </div>
         <div class="describeModal">
             <h3 class="name"></h3>
@@ -35,7 +37,7 @@ const Dom = (()=> {
                 markup+= `
                 <div class="card_box box5">
                 <div class="img">
-
+                <img src="${elem.img}" alt="">
                 </div>
                 <div class="description">
                     <div class="display">
@@ -55,31 +57,49 @@ const Dom = (()=> {
 
     function openModal(){
         let modal = document.querySelector(".modal");
+        addCover()
         modal.classList.remove("rmmodal")
     }
 
     function closeModal(){
         let modal = document.querySelector(".modal");
+        removeCover()
         modal.classList.add("rmmodal");
     }
 
    function fillMOdal(location){
     console.log(location)
     let description = document.querySelector(".here");
+    let img = document.querySelector("img.wide_img");
     let name = document.querySelector(".name")
     Product.forEach(prod => {
         console.log(prod.name)
         if(prod.name === location){
             name.innerHTML = prod.name
-            description.innerHTML = prod.about
+            description.innerHTML = prod.about;
+            img.setAttribute("src", prod.img);
         }
     })
+   }
+
+   function addCover(){
+    let pre = document.querySelector("div.pre");
+    let body = document.querySelector("body");
+    pre.classList.add("cover")
+    body.classList.add("lock-scroll")
+   }
+
+   function removeCover(){
+    let body = document.querySelector("body");
+    let pre = document.querySelector("div.pre");
+    pre.classList.remove("cover");
+    body.classList.remove("lock-scroll")
    }
 
 
     function listeners(){
         let find = document.querySelectorAll(".find");
-        let clsBtn = document.querySelector("i.bi-x-square");
+        let clsBtn = document.querySelector("i.bi-x-octagon-fill");
         find.forEach(btn => {
             btn.addEventListener("click", () => {
                 openModal()
@@ -95,8 +115,8 @@ const Dom = (()=> {
     }
 
     function init(){
-        category("play ground and Parks")
-        loadCatCards("play ground and Parks")
+        category("nature")
+        loadCatCards("nature")
         listeners()
     }
 
