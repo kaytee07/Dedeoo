@@ -40,7 +40,7 @@ export const Product = [
         "https://www.google.com/maps/dir/5.5721501,-0.3089788/Pizza+Hut+Dzorwulu,+Nii+Nortei+Nyanchi+St,+Accra/@5.5936056,-0.3235177,12z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0xfdf9b025c933c8d:0x789d1dd3406ad198!2m2!1d-0.1977518!2d5.6131973",
     },
     {
-      name: "ICE CREAM PALACE",
+      name: "Pinocchio",
       Location: "NORTH KANESHIE",
       Category: "sweet tooth",
       img: "../../img/ice_cream_sweeth.jpeg",
@@ -49,6 +49,28 @@ export const Product = [
       location:
         "https://www.google.com/maps/dir/5.5721501,-0.3089788/Pizza+Hut+Dzorwulu,+Nii+Nortei+Nyanchi+St,+Accra/@5.5936056,-0.3235177,12z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0xfdf9b025c933c8d:0x789d1dd3406ad198!2m2!1d-0.1977518!2d5.6131973",
       map: "",
+    },
+    {
+        name: "Cup cake boutique",
+        Location: "NORTH KANESHIE",
+        Category: "sweet tooth",
+        img: "../../img/pibocchio_ice_cream.jpeg",
+        about:
+          "In the Era of Democracy , if you talk against Bad Leadership, You suddenly get Missing. Twene Jonas is missing just like that?",
+        location:
+          "https://www.google.com/maps/dir/5.5721501,-0.3089788/Pizza+Hut+Dzorwulu,+Nii+Nortei+Nyanchi+St,+Accra/@5.5936056,-0.3235177,12z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0xfdf9b025c933c8d:0x789d1dd3406ad198!2m2!1d-0.1977518!2d5.6131973",
+        map: ""
+    },
+    {
+        name: "Brasa",
+        Location: "NORTH KANESHIE",
+        Category: "food and restaurant",
+        img: "../../img/brasa_restaurant.jpeg",
+        about:
+          "In the Era of Democracy , if you talk against Bad Leadership, You suddenly get Missing. Twene Jonas is missing just like that?",
+        location:
+          "https://www.google.com/maps/dir/5.5721501,-0.3089788/Pizza+Hut+Dzorwulu,+Nii+Nortei+Nyanchi+St,+Accra/@5.5936056,-0.3235177,12z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0xfdf9b025c933c8d:0x789d1dd3406ad198!2m2!1d-0.1977518!2d5.6131973",
+        map: ""
     },
     {
       name: "Sealineview",

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&family=Source+Sans+Pro:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -13,7 +13,7 @@ header{
   box-shadow: 0px 1px 10px #ece4e4;
     position: -webkit-sticky;
     position: sticky;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Poppins', sans-serif;
     color:  #000;
     background-color: #FFC8C8;
 }
@@ -24,14 +24,15 @@ header{
     align-items: center;
     padding: 0 30px;
     justify-content: space-between;
-
+    background-color: #fb8500;
+    color: white;
 }
 
 .main_page {
     background: #fff;
     text-align: center;
     min-height: 510px;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: lighter;
   }
 
@@ -60,9 +61,11 @@ header{
   }
 
 footer{
-    height: 4em;
-    font-family: 'Roboto', sans-serif;
-    background-color: #FFC8C8;
+    height: 5em;
+    font-family: 'Poppins', sans-serif;
+    background-color: #fb8500;
+    color: #fff;
+
 }
 
 .contact_us{
@@ -74,6 +77,7 @@ footer{
     justify-content: space-around;
     margin-bottom: 10px;
     list-style: none;
+    justify-content: center;
 }
 
 .copyright{
@@ -103,11 +107,15 @@ button{
   height: 35px;
   min-width: 100px;
   margin-left: 20px;
+  border: none;
+  background-color: #fb8500;
+  color: white;
 }
 
 .button{
   display: flex;
   margin-top: 20px;
+  
 }
 
 .display{
@@ -215,11 +223,19 @@ img {
   .card_box{
     width: 150px;
   }
+  .display{
+    height: 50px;
+  }
 
-
+  .contact{
+    justify-content: center;
+  }
+  .contact_us{
+    margin-bottom: 30px;
+  }
   .cat{
     padding-top: 10px;
-
+    text-align: left;
   }
   .button{
     margin-top: 10px;
