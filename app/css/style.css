@@ -216,9 +216,15 @@ img {
   top: 4px;
  }
 
+ a{
+  text-decoration: none;
+  color: white;
+ }
+
  @media(max-width:480px){
   .cards{
     width: 95%;
+    justify-content: center;
   }
   .card_box{
     width: 150px;
@@ -245,6 +251,13 @@ img {
   }
   .navbar{
     overflow-x: hidden;
+  }
+  footer{
+    height: fit-content;
+  }
+  .modal{
+    width: 350px;
+    height: 599px;
   }
  }
 
