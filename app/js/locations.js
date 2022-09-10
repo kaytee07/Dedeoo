@@ -3,7 +3,7 @@ export const Product = [
     {
       name: "Peninsula resort and beach club",
       Category: "hotels and resorts",
-      img: "../../img/peninsula_resort_and_beach-club-resort.jpeg",
+      img: "img/peninsula_resort_and_beach-club-resort.jpeg",
       about:
         "DJ Switch’s Mum is the most ungrateful person. Twene Jonas helped made good decisions and through that, the kid made it world wide. Now she’s spreading fake news about him to the politicians…. Trust No body herhh",
       location:
@@ -12,7 +12,7 @@ export const Product = [
     {
       name: "Mole National Park",
       Category: "nature",
-      img: "../../img/mole_national_park_nature.jpeg",
+      img: "img/mole_national_park_nature.jpeg",
       about:
         "DJ Switch’s Mum is the most ungrateful person. Twene Jonas helped made good decisions and through that, the kid made it world wide. Now she’s spreading fake news about him to the politicians…. Trust No body herhh",
       location:
@@ -22,7 +22,7 @@ export const Product = [
       name: "Shai Hills",
       Dates: "2nd January 2022",
       Category: "nature",
-      img: "../../img/shai_hills_nature.jpeg",
+      img: "img/shai_hills_nature.jpeg",
       about:
         "Ah After listening to the lady i have really regretted voting for NPP you can book plane for people to go to America to search for twene jonas eii ohhh dabi dabi",
       location:
@@ -33,7 +33,7 @@ export const Product = [
       name: "Accra City Hotel",
       Dates: "1st June 2022",
       Category: "hotels and resorts",
-      img: "../../img/accra_city_hotel.jpeg",
+      img: "img/accra_city_hotel.jpeg",
       about:
         "ut the saydadon guy and Twene Jonas them dey fool or what? Twene Jonas is missen and you print shirt kot pic, ebi showbiz them dey do ",
       location:
@@ -43,7 +43,7 @@ export const Product = [
       name: "Pinocchio",
       Location: "NORTH KANESHIE",
       Category: "sweet tooth",
-      img: "../../img/ice_cream_sweeth.jpeg",
+      img: "img/ice_cream_sweeth.jpeg",
       about:
         "In the Era of Democracy , if you talk against Bad Leadership, You suddenly get Missing. Twene Jonas is missing just like that?",
       location:
@@ -54,7 +54,7 @@ export const Product = [
         name: "Cup cake boutique",
         Location: "NORTH KANESHIE",
         Category: "sweet tooth",
-        img: "../../img/pibocchio_ice_cream.jpeg",
+        img: "img/pibocchio_ice_cream.jpeg",
         about:
           "In the Era of Democracy , if you talk against Bad Leadership, You suddenly get Missing. Twene Jonas is missing just like that?",
         location:
@@ -65,7 +65,7 @@ export const Product = [
         name: "Brasa",
         Location: "NORTH KANESHIE",
         Category: "food and restaurant",
-        img: "../../img/brasa_restaurant.jpeg",
+        img: "img/brasa_restaurant.jpeg",
         about:
           "In the Era of Democracy , if you talk against Bad Leadership, You suddenly get Missing. Twene Jonas is missing just like that?",
         location:
@@ -76,7 +76,7 @@ export const Product = [
       name: "Sealineview",
       Location: "EAST LEGON",
       Category: "food and restaurant",
-      img: "../../img/sea_line_view_rest.jpeg",
+      img: "img/sea_line_view_rest.jpeg",
       about:
         "Twene Jonas is declared missing by his sister and best friend “say the Don” ,... hoping wanna leaders are not involved ",
       location:
@@ -86,7 +86,7 @@ export const Product = [
       name: "Nubuke foundation",
       Location: "EAST LEGON",
       Category: "art galleries",
-      img: "../../img/nubuke_foundation_art.jpeg",
+      img: "img/nubuke_foundation_art.jpeg",
       about:
         "Twene Jonas is declared missing by his sister and best friend “say the Don” ,... hoping wanna leaders are not involved ",
       location:
@@ -96,7 +96,7 @@ export const Product = [
       name: "ada accra",
       Location: "EAST LEGON",
       Category: "art galleries",
-      img: "../../img/ada_accra_art.jpeg",
+      img: "img/ada_accra_art.jpeg",
       about:
         "Twene Jonas is declared missing by his sister and best friend “say the Don” ,... hoping wanna leaders are not involved ",
       location:
@@ -106,7 +106,7 @@ export const Product = [
       name: "Splash and play",
       Location: "EAST LEGON",
       Category: "family",
-      img: "../../img/splash_and_play.jpeg",
+      img: "img/splash_and_play.jpeg",
       about:
         "Twene Jonas is declared missing by his sister and best friend “say the Don” ,... hoping wanna leaders are not involved ",
       location:
@@ -116,7 +116,7 @@ export const Product = [
       name: "bliss family entertainment",
       Location: "EAST LEGON",
       Category: "family",
-      img: "../../img/bliss_family_entertainment.jpeg",
+      img: "img/bliss_family_entertainment.jpeg",
       about:
         "Twene Jonas is declared missing by his sister and best friend “say the Don” ,... hoping wanna leaders are not involved ",
       location:
