@@ -5,7 +5,7 @@ export const Product = [
       Category: "hotels and resorts",
       img: "img/peninsula_resort_and_beach-club-resort.jpeg",
       about:
-        "DJ Switch’s Mum is the most ungrateful person. Twene Jonas helped made good decisions and through that, the kid made it world wide. Now she’s spreading fake news about him to the politicians…. Trust No body herhh",
+        "DJ Switch’s Mum is the most ungrateful person. Twene Jonas helped made good decisions and th",
       location:
         "https://www.google.com/maps/dir/5.5721501,-0.3089788/Pizza+Hut+Dzorwulu,+Nii+Nortei+Nyanchi+St,+Accra/@5.5936056,-0.3235177,12z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0xfdf9b025c933c8d:0x789d1dd3406ad198!2m2!1d-0.1977518!2d5.6131973",
     },
@@ -14,7 +14,7 @@ export const Product = [
       Category: "nature",
       img: "img/mole_national_park_nature.jpeg",
       about:
-        "DJ Switch’s Mum is the most ungrateful person. Twene Jonas helped made good decisions and through that, the kid made it world wide. Now she’s spreading fake news about him to the politicians…. Trust No body herhh",
+        "DJ Switch’s Mum is the most ungrateful person. Twene Jonas helped made good decisions",
       location:
         "https://www.google.com/maps/dir/5.5721501,-0.3089788/Pizza+Hut+Dzorwulu,+Nii+Nortei+Nyanchi+St,+Accra/@5.5936056,-0.3235177,12z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0xfdf9b025c933c8d:0x789d1dd3406ad198!2m2!1d-0.1977518!2d5.6131973",
     },

@@ -36,7 +36,7 @@ header{
   }
 
   .cards{
-    width: 80%;
+    width: 56%;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
@@ -148,7 +148,8 @@ button{
   background-color: #fb8500;
 }
 .describeModal{
-  height: 45%;
+  height: 46%;
+  background-color: white;
 }
 
 .rmmodal{
@@ -233,6 +234,9 @@ img {
  @media(max-width:912px){
   .card_box{
    width: 209px;
+  }
+  .cards{
+    width: 80%;
   }
   .main_page {
     background: #fff;

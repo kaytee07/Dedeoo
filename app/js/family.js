@@ -4,6 +4,7 @@ const Dom = (()=> {
     function category(elem){
         let mainPage = document.querySelector(".main_page");
         let markup = `
+        <div class="pre"></div>
         <div class="modal rmmodal">
         <div class="img1">
         <i class="bi bi-x-octagon-fill"></i>
@@ -14,6 +15,7 @@ const Dom = (()=> {
             <p class="here"></p>
             <div class="getBtn">
             <button class="getDirection">Get Direction</button>
+            <button class="getride">Book a ride</button>
             </div>
         </div>
     </div>
@@ -34,7 +36,6 @@ const Dom = (()=> {
        Product.forEach(elem => {
            if(elem.Category === key){
                 markup+= `
-                <div class="pre"></div>
                 <div class="card_box box5">
                 <div class="img">
                 <img src="${elem.img}" alt="">

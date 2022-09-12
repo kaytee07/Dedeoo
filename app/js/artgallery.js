@@ -4,6 +4,7 @@ const Dom = (()=> {
     function category(elem){
         let mainPage = document.querySelector(".main_page");
         let markup = `
+        <div class="pre"></div>
         <div class="modal rmmodal">
         <div class="img1">
         <i class="bi bi-x-octagon-fill"></i>
@@ -14,6 +15,7 @@ const Dom = (()=> {
             <p class="here"></p>
             <div class="getBtn">
             <button class="getDirection">Get Direction</button>
+            <button class="getDirection">Book a ride</button>
             </div>
         </div>
     </div>
@@ -82,6 +84,7 @@ const Dom = (()=> {
 
     function addCover(){
         let pre = document.querySelector("div.pre");
+        console.log(pre)
         let body = document.querySelector("body");
         pre.classList.add("cover")
         body.classList.add("lock-scroll")
