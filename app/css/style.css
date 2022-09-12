@@ -15,7 +15,6 @@ header{
     position: sticky;
     font-family: 'Poppins', sans-serif;
     color:  #000;
-    background-color: #FFC8C8;
 }
 
 .navbar {
@@ -146,7 +145,7 @@ button{
 .img1{
   display: relative;
   height: 55%;
-  background-color: goldenrod;
+  background-color: #fb8500;
 }
 .describeModal{
   height: 45%;
@@ -201,6 +200,7 @@ img {
   overflow-y: hidden;
  }
  .search_input{
+  display: none;
   width: 77%;
   margin: 0 auto;
   position: relative;
@@ -220,8 +220,31 @@ img {
   text-decoration: none;
   color: white;
  }
+ @media(max-width:820px){
+  .cards{
+    width: 700px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+ }
 
- @media(max-width:480px){
+ @media(max-width:912px){
+  .card_box{
+   width: 209px;
+  }
+  .main_page {
+    background: #fff;
+    text-align: center;
+    min-height: 1238px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+    /* height: 1238px; */
+}
+ }
+
+ @media(max-width:630px){
   .cards{
     width: 95%;
     justify-content: center;

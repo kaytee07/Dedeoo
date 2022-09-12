@@ -93,7 +93,7 @@ export const Product = [
         "https://www.google.com/maps/dir/5.5721501%2C-0.3089788/Pizza+Hut+Dzorwulu%2C+Nii+Nortei+Nyanchi+St%2C+Accra/@5.5936056%2C-0.323517712z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0xfdf9b025c933c8d:0x789d1dd3406ad198!2m2!1d-0.1977518!2d5.6131973",
     },
     {
-      name: "ada accra",
+      name: "Ada Accra",
       Location: "EAST LEGON",
       Category: "art galleries",
       img: "img/ada_accra_art.jpeg",
@@ -113,7 +113,7 @@ export const Product = [
         "https://www.google.com/maps/dir/5.5721501%2C-0.3089788/Pizza+Hut+Dzorwulu%2C+Nii+Nortei+Nyanchi+St%2C+Accra/@5.5936056%2C-0.323517712z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0xfdf9b025c933c8d:0x789d1dd3406ad198!2m2!1d-0.1977518!2d5.6131973",
     },
     {
-      name: "bliss family entertainment",
+      name: "Bliss family entertainment",
       Location: "EAST LEGON",
       Category: "family",
       img: "img/bliss_family_entertainment.jpeg",
