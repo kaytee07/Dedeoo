@@ -15,7 +15,7 @@ const Dom = (()=> {
             <p class="here"></p>
             <div class="getBtn">
             <button class="getDirection">Get Direction</button>
-            <button class="getDirection">Book a ride</button>
+            <button class="getride">Book a ride</button>
             </div>
         </div>
     </div>

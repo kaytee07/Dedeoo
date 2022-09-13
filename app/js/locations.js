@@ -1,7 +1,7 @@
 
 export const Product = [
     {
-      name: "Peninsula resort and beach club",
+      name: "Peninsula resort",
       Category: "hotels and resorts",
       img: "img/peninsula_resort_and_beach-club-resort.jpeg",
       about:
@@ -113,7 +113,7 @@ export const Product = [
         "https://www.google.com/maps/dir/5.5721501%2C-0.3089788/Pizza+Hut+Dzorwulu%2C+Nii+Nortei+Nyanchi+St%2C+Accra/@5.5936056%2C-0.323517712z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0xfdf9b025c933c8d:0x789d1dd3406ad198!2m2!1d-0.1977518!2d5.6131973",
     },
     {
-      name: "Bliss family entertainment",
+      name: "Bliss family ",
       Location: "EAST LEGON",
       Category: "family",
       img: "img/bliss_family_entertainment.jpeg",

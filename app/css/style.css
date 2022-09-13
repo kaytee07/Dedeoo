@@ -23,7 +23,7 @@ header{
     align-items: center;
     padding: 0 30px;
     justify-content: space-between;
-    background-color: #fb8500;
+    background-color: #fb8500eb;
     color: white;
 }
 
@@ -62,7 +62,7 @@ header{
 footer{
     height: 5em;
     font-family: 'Poppins', sans-serif;
-    background-color: #fb8500;
+    background-color: #ff6003;
     color: #fff;
 
 }
@@ -107,7 +107,7 @@ button{
   min-width: 100px;
   margin-left: 20px;
   border: none;
-  background-color: #fb8500;
+  background-color: #ff6003;
   color: white;
 }
 
@@ -145,7 +145,7 @@ button{
 .img1{
   display: relative;
   height: 55%;
-  background-color: #fb8500;
+  background-color: #ff6003;
 }
 .describeModal{
   height: 46%;
@@ -231,6 +231,12 @@ img {
   }
  }
 
+ @media(max-width:1115px){
+  .cards{
+    width: 70%;
+  }
+ }
+
  @media(max-width:912px){
   .card_box{
    width: 209px;
@@ -246,6 +252,12 @@ img {
     font-weight: lighter;
     /* height: 1238px; */
 }
+ }
+
+ @media(max-width:896px){
+  .card_box{
+   width: 206px;
+  }
  }
 
  @media(max-width:630px){
@@ -292,4 +304,5 @@ img {
 /* div.cards{
   display: flex;
   justify-content: center;
+  #fb8500
 } */
