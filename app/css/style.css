@@ -23,7 +23,7 @@ header{
     align-items: center;
     padding: 0 30px;
     justify-content: space-between;
-    background-color: #fb8500eb;
+    background-color: #fb8500;
     color: white;
 }
 
@@ -62,7 +62,7 @@ header{
 footer{
     height: 5em;
     font-family: 'Poppins', sans-serif;
-    background-color: #ff6003;
+    background-color: #fb8500;
     color: #fff;
 
 }
@@ -107,7 +107,7 @@ button{
   min-width: 100px;
   margin-left: 20px;
   border: none;
-  background-color: #ff6003;
+  background-color: #fb8500;
   color: white;
 }
 
@@ -145,7 +145,7 @@ button{
 .img1{
   display: relative;
   height: 55%;
-  background-color: #ff6003;
+  background-color: #fb8500;
 }
 .describeModal{
   height: 46%;
