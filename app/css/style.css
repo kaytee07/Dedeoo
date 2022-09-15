@@ -268,7 +268,7 @@ img {
 
  @media(max-width:630px){
   .cards{
-    width: 99%;
+    width: 70%;
     justify-content: center;
   }
   .card_box{
@@ -305,6 +305,13 @@ img {
     height: 599px;
   }
  }
+
+ @media(max-width:375px){
+  .cards{
+    width: 99%;
+    justify-content: center;
+  }
+}
 
 
 /* div.cards{
