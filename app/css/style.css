@@ -237,6 +237,12 @@ img {
   }
  }
 
+ @media(max-width:375px){
+  .cards{
+    width: 99%;
+  }
+ }
+
  @media(max-width:912px){
   .card_box{
    width: 209px;
