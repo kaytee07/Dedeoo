@@ -268,7 +268,7 @@ img {
 
  @media(max-width:630px){
   .cards{
-    width: 95%;
+    width: 99%;
     justify-content: center;
   }
   .card_box{
